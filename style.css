@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.contanier{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+    position: relative;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   align-items: center
+}
+
+.nav-list a{
+   padding: 0 20px;
+   text-decoration: none;
+   color: #000;
+   text-align: center;
+   
+   border-bottom: 1px solid transparent;
+   border-width: 0;
+
+} 
+.nav-list a img{
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+header{
+    width: 100%;
+    
+    background: linear-gradient(#fff,#ffd6d6);
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.right{
+    width: 50%;
+}
+.right img{
+    width: 100%;
+}
+.left h1{
+    font-weight: 200;
+    font-size: 3rem;
+    font-family: fantasy;
+    padding: 10px 0;
+}
+.left button{
+    color: #fff;
+    background: #ff523b;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin: 30px 0;
+    border: none;
+    transition: all 0.3s ease;
+
+}
+.left button:hover{
+    transform: translateX(10px);
+}
+/* three photos :start from here */
+.three{
+    position: relative;;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.three img{
+    
+    width: 100%;
+    background-size: cover;
+    width: 20vw;
+    min-width: 10vw;
+    
+}
+.three-img .contanier h3{
+    text-align: center;
+    padding: 40px 0;
+}
+.four-photos{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+
+}
+.div-one{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    padding: 0 5px;
+    overflow: hidden;
+}
+
+.div-one img{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.four{
+    margin: 30px 0;
+}
+.title{
+    text-align: center;
+    margin: 100px 0;
+}
+.five{
+    margin-bottom: 70px;
+}
+.div-watch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+    margin: 0 auto;
+    position: relative;
+   
+}
+.div-for-background{
+    
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(#fff,#ffd6d6);
+}
+.watch{
+    width: 50%;
+    position: relative;
+}
+.left-text{
+    width: 50%;
+    position: relative;
+    
+}
+.watch img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.div-four-watch{
+    
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 6px black;
+    margin: 10px 30px;
+    padding: 30px 15px;
+    transition: all 0.3s ease;
+}
+.card img{
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin: 30px 0;
+   
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.three-cards{
+margin: 80px 0;
+}
+.div-logos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    
+}
+.div-logos img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    filter: grayscale(100%);
+    
+}
+.div-logos img:hover{
+    filter: grayscale(0);
+}
+footer{
+    margin-top: 70px;
+    background: #161616;
+    padding: 60px 0;
+    
+}
+.four-div-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+    
+    
+}
+.divs-second-text img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.flex-img{
+    display: flex; 
+
+    
+}
+.flex-img img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.divs-text-four{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 50px;
+    color: #fff;
+    
+
+}
+.divs-next-text{
+    
+    position: relative;
+    color: #fff;
+}
+.divs-second-text{
+    position: relative;
+    color: #fff;
+}
+.divs-second-text a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+
+}
+.divs-third-text{
+    color: #fff;
+    
+    position: relative;
+}
+.divs-third-text a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+
+}
+.div-hr{
+    text-align: center;
+    color: #fff;
+
+}
+.div-hr h5{
+    padding: 5px 0;
+}
+/* <!-- for this we are going to creat our exclusive watch part --> */
+.left-text h3{
+    margin-bottom: 30px;
+
+}
+.left-text h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.left-text button{
+    color: #fff;
+    background: #ff523b;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin: 30px 0;
+    border: none;
+    transition: all 0.3s ease;
+     
+}
+.left-text button:hover{
+  transform: translateX(10px);
+}
